@@ -1,0 +1,153 @@
+#canv {
+    width: 255px;
+    height: 355px;
+    background-color: #637483;
+    /* The order of arguments: left-top, right-top, right-bottom, left-bottom */
+    border-radius: 30px 30px 30px 30px;
+    margin-bottom: 10px;
+}
+
+#calculatorArea {
+    display: flex;
+    flex-direction: rows;
+}
+
+.calcBtn {
+    position: absolute;
+    height: 30px;
+    width: 45px;
+    border: none;
+    border-radius: 6px;
+}
+
+#wordPractise {
+    margin-left: 30em;
+    width: 300px;
+    height: 350px;
+    background-color: #8CE2CF;
+    border-radius: 30px 30px 30px 30px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Button positions for the accurate "calculator" look */
+#clear {
+    top: 205px;
+    left: 30px;
+    background-color: darkred;
+}
+
+#enter {
+    top: 385px;
+    left: 195px;
+    background-color: grey;
+}
+
+#comma {
+    top: 385px;
+    left: 135px;
+    background-color: grey;
+}
+
+#num0 {
+    width: 90px;
+    top: 385px;
+    left: 30px;
+}
+
+#num1 {
+    top: 340px;
+    left: 30px;
+}
+
+#num2 {
+    top: 340px;
+    left: 85px;
+}
+
+#num3 {
+    top: 340px;
+    left: 140px;
+}
+
+#num4 {
+    top: 295px;
+    left: 30px;
+}
+
+#num5 {
+    top: 295px;
+    left: 85px;
+}
+
+#num6 {
+    top: 295px;
+    left: 140px;
+}
+
+#num7 {
+    top: 250px;
+    left: 30px;
+}
+
+#num8 {
+    top: 250px;
+    left: 85px;
+}
+
+#num9 {
+    top: 250px;
+    left: 140px;
+}
+
+#plus {
+    top: 340px;
+    left: 195px;
+    background-color: grey;
+}
+
+#minus {
+    top: 295px;
+    left: 195px;
+    background-color: grey;
+}
+
+#multiply {
+    top: 250px;
+    left: 195px;
+    background-color: grey;
+}
+
+#divide {
+    top: 205px;
+    left: 195px;
+    background-color: grey;
+}
+
+#percent {
+    top: 205px;
+    left: 140px;
+    background-color: grey;
+}
+
+#mark {
+    top: 205px;
+    left: 85px;
+    background-color: grey;
+}
+
+#screen {
+    position: absolute;
+    background-color: whitesmoke;
+    height: 80px;
+    width: 210px;
+    top: 85px;
+    left: 30px;
+    border-radius: 10px 10px 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 0 200px;
+}
